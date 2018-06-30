@@ -4,4 +4,10 @@ function takeANumber(katzDeliLine, name){
   
 }
 
-function nowServing
+function nowServing(){
+  
+}
+
+function currentLine(){
+  
+}
