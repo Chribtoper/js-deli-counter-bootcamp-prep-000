@@ -24,7 +24,7 @@ for (let i = 0; i < line.length; i++){
   temp += `${i+1}. ${line[i]}, `;
     }
   }
-  delete temp[temp.length];
+  temp.slice(temp.length);
   return `The line is currently: ${temp}`;
 }
 
