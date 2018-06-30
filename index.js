@@ -21,10 +21,13 @@ function currentLine(line){
     return "The line is currently empty.";
 } else {
 for (let i = 0; i < line.length; i++){
+  if (i === line.length-1) {
+  temp += `${i+1}. ${line[i]}`;
+  } else {
   temp += `${i+1}. ${line[i]}, `;
+      }
     }
   }
-  temp.slice(0, -1);
-  return `The line is currently: ${temp.slice(0, -1)}`;
+  return `The line is currently: ${temp}`;
 }
 
