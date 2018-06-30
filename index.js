@@ -11,3 +11,5 @@ function nowServing(){
 function currentLine(){
   
 }
+
+console.log(katzDeli)
