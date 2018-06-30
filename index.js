@@ -23,7 +23,7 @@ function currentLine(line){
 for (let i = 0; i < line.length; i++){
   temp += `${i+1}. ${line[i]},`;
     }
-    comma = temp.length;
+    var comma = temp.length;
     delete temp[comma];
   }
   return `The line is currently: ${temp}`;
