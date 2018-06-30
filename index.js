@@ -25,6 +25,6 @@ for (let i = 0; i < line.length; i++){
     }
   }
   temp.slice(0, -1);
-  return `The line is currently: ${temp}`;
+  return `The line is currently: ${temp.slice(0, -1)}`;
 }
 
