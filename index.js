@@ -21,7 +21,7 @@ function currentLine(line){
 } else {
   console.log("The line is currently:");
 for (let i = 0; i < line.length; i++){
-  return `${i+1}. ${line[i]},`;
+  console.log(`${i+1}. ${line[i]},`);
     }
   }
 }
