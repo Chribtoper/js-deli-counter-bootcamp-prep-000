@@ -22,7 +22,7 @@ function currentLine(line){
 } else {
 for (let i = 0; i < line.length; i++){
   if (i === line.length-1) {
-  temp += `${i+1}. ${line[i]}`; /*This part was a real pain */
+  temp += `${i+1}. ${line[i]}`; // This is gonna sound silly but the comma was giving me a hard time
   } else {
   temp += `${i+1}. ${line[i]}, `; 
       }
